@@ -1,0 +1,128 @@
+@use "./_mixin.scss" as *;
+@import "./_variables.scss";
+@import "./fonts.scss";
+
+:root {
+  --white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: $white;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+}
+
+.ant-layout-sider {
+  width: 256px;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  .ant-menu {
+    width: 216px;
+    height: 448px;
+    padding-top: 32px;
+
+    .ant-menu-item-selected {
+      color: $primary-color;
+    }
+    .ant-menu-item {
+      padding: 13px 16px;
+    }
+    .ant-menu-title-content {
+      margin-left: 16px;
+    }
+  }
+}
+.logoWrapper {
+  width: 256px;
+  height: 48px;
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ant-layout-sider-collapsed {
+  .logoWrapper {
+    justify-content: center;
+    img {
+      display: none;
+    }
+  }
+  .ant-menu-item-selected {
+    height: 46px;
+    text-align: center;
+    padding: 0.5rem !important;
+    // color: $primary-color;
+    .ant-menu-title-content {
+      display: none !important;
+    }
+  }
+  .ant-menu-item {
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    height: 46px;
+    text-align: center;
+    .ant-menu-title-content {
+      display: none !important;
+    }
+  }
+  .bottomSider {
+    justify-content: center;
+    .sendMessageWrapper {
+      display: none;
+    }
+    .bulb {
+      display: none;
+    }
+  }
+}
+.ant-btn {
+  &:hover {
+    color: var(--white);
+  }
+}
+.homeWrapper {
+  display: flex;
+  flex-direction: row;
+  // flex-wrap: wrap;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cardWrapper {
+  padding-left: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-layout-content {
+  background-color: $white;
+  overflow: auto;
+  padding: 36px 64px 64px 64px;
+  position: relative;
+  min-width: calc(100vw - 256px);
+}
+.divider {
+  width: 1px;
+  color: #e4e4e4 !important;
+  // min-height: 80%;
+  margin-left: 64px;
+}
+.walletWrapper {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+}

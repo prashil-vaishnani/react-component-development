@@ -1,0 +1,54 @@
+.PriceTableWrapper {
+  // width: 1072px;
+  // height: 960px;
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+}
+
+.priceTableHeader {
+  display: flex;
+  justify-content: space-between;
+  &_text {
+    color: #11142d;
+    //styleName: headline/h5/medium 24;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    // width: 281px;
+    // height: 64px;
+    word-wrap: break-word;
+    margin-bottom: 48px;
+  }
+}
+.dataTableRowBold {
+  //styleName: menu/semi-bold 14;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #11142d;
+}
+.LoadMoreBtn {
+  margin-top: 32px;
+  width: (120px);
+  height: (48px);
+  padding: 12px, 24px, 12px, 24px;
+  gap: 10px;
+  align-items: center;
+  //styleName: menu/semi-bold 14;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #355dff;
+  border-radius: 10px;
+  align-self: center;
+}

@@ -1,0 +1,89 @@
+.cardList {
+  padding-top: 36px;
+  width: 298px;
+  height: 564px;
+  opacity: 0.5px;
+}
+.subCardList {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 298px;
+  height: 530px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.bitChart {
+  margin-top: 32px;
+  width: 211px;
+  height: 211px;
+}
+
+.textBox {
+  width: 164px;
+  height: 140px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.balance {
+  font-family: Poppins !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.btcBtn {
+  //styleName: title/semi-bold 16;
+  font-family: Inter !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+  background-color: rgba(255, 159, 56, 1);
+  margin-top: 16px;
+  border-radius: 20px;
+}
+
+.btcPrice {
+  width: 164px;
+  height: 40px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+}
+.totalBtc {
+  width: 116px;
+  height: 24px;
+  //styleName: headline/h6/medium 18;
+  font-family: Poppins !important;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #4fbf67;
+}
+.withdraw {
+  //styleName: menu/semi-bold 14;
+  font-family: Inter !important;
+  margin-top: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: (114px);
+  height: (48px);
+  padding: 12px, 24px, 12px, 24px;
+  gap: 10px;
+  color: white;
+  background-color: rgba(53, 93, 255, 1);
+  border-radius: 10px;
+}

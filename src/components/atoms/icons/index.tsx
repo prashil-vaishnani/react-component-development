@@ -1,0 +1,31 @@
+/*Side bar icons */
+export { default as HomeIcon } from "./Home";
+export { default as ActivitiesIcon } from "./Activities";
+export { default as ExchangeSBIcon } from "./Exchange";
+export { default as NotificationsIcon } from "./Notifications";
+export { default as PricesIcon } from "./Prices";
+export { default as PromotionsIcon } from "./Promotions";
+export { default as SettingsIcon } from "./Settings";
+export { default as WalletsIcon } from "./Wallets";
+/*other icons */
+export { default as CollapsedIcon } from "./CollapsedIcon";
+export { default as Bulb } from "./Bulb";
+export { default as Notification } from "./Notification";
+export { default as ChartUp } from "./ChartUp";
+export { default as Profile } from "./Me";
+export { default as Bitcoin } from "./Bitcoin";
+export { default as Deposit } from "./Deposit";
+export { default as WithDraw } from "./WithDraw";
+export { default as AssetsIcon } from "./AssetsIcon";
+export { default as ExchangeIcon } from "./ExchangeIcon";
+export { default as UpArrow } from "./UpArrow";
+export { default as Boxing } from "./Boxing";
+export { default as Savings } from "./Savings";
+export { default as Potensial } from "./Potensial";
+export { default as TopGainer } from "./TopDainer";
+export { default as RecentlyCoin } from "./RecentlyCoin";
+export { default as MenuThreeDots } from "./Menu";
+export { default as MoneyBag } from "./MoneyBag";
+export { default as MoneyCash } from "./MoneyCash";
+export { default as CurrencyExchange } from "./CurrencyExchange";
+export { default as ArrowRight } from "./ArrowRight";

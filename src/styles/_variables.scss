@@ -1,0 +1,33 @@
+@import "./fonts";
+$primary-color: #355DFF;
+$dark: #1B1D21;
+$light-gray:#E4E4E4;
+$white: #ffffff;
+$Accent-1:#6C5DD3;
+$Accent-2:#3F8CFF;
+$Accent-3:#FF98E5;
+$mean-primary:#4FBF67;
+$alert: #FF6628;
+$warning:#FF9F38;
+$chart-1:#FF7A68;
+$chart-2:#3DBAA2;
+
+
+
+/* Media query break points */
+$breakpoints-up: (
+  xs:480px,  
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px,
+);
+$breakpoints-down: (
+  xs:479px,  
+  sm: 575px,
+  md: 767px,
+  lg: 991px,
+  xl: 1199px,
+  xxl: 1599px,
+);

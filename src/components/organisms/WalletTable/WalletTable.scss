@@ -1,0 +1,55 @@
+.WalletTableWrapper {
+  // width: 1056px;
+  // height: 816px;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tableHeader {
+  color: #11142d;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.dataTableRowBold {
+  //styleName: menu/semi-bold 14;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #11142d;
+}
+.dataTableRowLight {
+  //styleName: caption/small/medium 12;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #808191;
+}
+.LoadMoreBtn {
+  margin-top: 32px;
+  width: (120px);
+  height: (48px);
+  padding: 12px, 24px, 12px, 24px;
+  gap: 10px;
+  align-items: center;
+  //styleName: menu/semi-bold 14;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #355dff;
+  border-radius: 10px;
+  align-self: center;
+}

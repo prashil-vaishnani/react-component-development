@@ -1,0 +1,40 @@
+.homeActivitiesWrapper {
+  margin-top: 64px;
+}
+.activitiesHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &Text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #11142d;
+  }
+}
+.activitiesListing {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.activitiesFooter {
+  display: flex;
+  flex-direction: row;
+  margin-top: 36px;
+  align-items: center;
+  &Text {
+    margin-left: 16px;
+    //styleName: menu/semi-bold 14;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #355dff;
+  }
+}
