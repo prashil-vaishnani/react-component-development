@@ -14,12 +14,13 @@ const columns: ColumnsType<WalletDataType> = [
         style={{
           display: "flex",
           alignItems: "center",
+          justifyContent: "space-around",
         }}
       >
-        <div style={{ width: 32, height: 32, alignSelf: "start" }}>
-          <Bitcoin />
+        <div>
+          <Bitcoin size={32} />
         </div>
-        <div style={{ marginLeft: 25 }}>{text}</div>
+        <div>{text}</div>
       </div>
     ),
   },

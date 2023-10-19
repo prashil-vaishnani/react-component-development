@@ -15,10 +15,10 @@ const columns: ColumnsType<HistoryDataType> = [
           display: "flex",
         }}
       >
-        <div style={{ width: 32, height: 32, alignSelf: "start" }}>
-          <Bitcoin />
+        <div>
+          <Bitcoin size={32} />
         </div>
-        <div style={{ alignSelf: "end", marginLeft: 25 }}>{text}</div>
+        <div style={{ marginLeft: 25 }}>{text}</div>
       </div>
     ),
   },

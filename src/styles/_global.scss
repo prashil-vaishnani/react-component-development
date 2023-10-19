@@ -90,6 +90,14 @@ body {
     color: var(--white);
   }
 }
+.ant-table-row {
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.ant-table-row:hover {
+  background: none;
+  box-shadow: 0 0 0 2px #355dff;
+}
 .homeWrapper {
   display: flex;
   flex-direction: row;

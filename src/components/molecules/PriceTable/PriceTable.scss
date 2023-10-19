@@ -52,3 +52,8 @@
   border-radius: 10px;
   align-self: center;
 }
+.customEffect {
+  .ant-table-row:hover {
+    box-shadow: 0 3px 10px rgba(#000, 0.07);
+  }
+}

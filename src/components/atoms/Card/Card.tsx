@@ -1,6 +1,6 @@
-import {  Button, Divider } from "antd";
+import { Button } from "antd";
 import "./Card.scss";
-import { ChartUp ,Bitcoin} from "../icons";
+import { ChartUp, Bitcoin } from "../icons";
 
 const Card = ({
   coinName,
@@ -12,32 +12,32 @@ const Card = ({
   price: string;
 }) => {
   return (
-    <div className="card">
-      <div className="subCard">
-        <div className="gridContainer">
-          <div className="item1">
-            <Bitcoin/>
+    // <div className="card">
+    <div className="widgets__item">
+      <div className="widgets__head">
+        <div className="widgets__company">
+          <div className="widgets__logo">
+            <Bitcoin size={48} />
           </div>
-          <div className="item2">
-            <div className="coinName">{coinName}</div>
-            <div className="coinShortName">{coinShortName}</div>
-          </div>
-          <div className="item3">
-            <Button className="hour">24H</Button>
+          <div className="widgets__details">
+            <div className="widgets__category">{coinName}</div>
+            <div className="widgets__info">{coinShortName}</div>
           </div>
         </div>
-        <Divider className="divider" />
-        <div>
-          <div className="contain">
-            <div className="price">{price}USD</div>
-            <div className="pl">+2.73%</div>
-          </div>
-          <div className="chart">
-            <ChartUp />
-          </div>
+        <div className="widgets__time">24H</div>
+      </div>
+      <div className="widgets__body">
+        <div className="widgets__line">
+          <div className="widgets__price">{price}USD</div>
+          <div className="pl">+2.73%</div>
+        </div>
+        <div className="widgets__chart">
+          <ChartUp />
         </div>
       </div>
+      <Button className="widgets__btn">View Asset</Button>
     </div>
+    // </div>
   );
 };
 

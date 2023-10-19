@@ -19,8 +19,8 @@ const columns: ColumnsType<PriceDataType> = [
           alignItems: "center",
         }}
       >
-        <div style={{ width: 32, height: 32 }}>
-          <Bitcoin />
+        <div>
+          <Bitcoin size={32} />
         </div>
         <div>{text}</div>
       </div>
@@ -93,12 +93,14 @@ const PriceTable = () => {
   return (
     <div className="PriceTableWrapper">
       <div className="priceTableHeader">
-        <div className="priceTableHeader_text">Today's Cryptocurrency Prices</div>
+        <div className="priceTableHeader_text">
+          Today's Cryptocurrency Prices
+        </div>
         <div className="priceTableHeader_select">
-          <CustomSelect/>
+          <CustomSelect />
         </div>
       </div>
-      <div>
+      <div className="customEffect">
         <Table
           rowSelection={{
             type: "checkbox",

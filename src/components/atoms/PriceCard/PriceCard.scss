@@ -4,6 +4,10 @@
   padding: 36px 34px 32px 34px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+.priceCard:hover {
+  background: none;
+  box-shadow: 0 0 0 2px #355dff;
+}
 .iconWrapper {
   width: 112px;
   height: 112px;
