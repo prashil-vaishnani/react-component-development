@@ -51,16 +51,6 @@ const columns: ColumnsType<HistoryDataType> = [
     ),
   },
 ];
-
-const rowSelection = {
-  onChange: (selectedRowKeys: React.Key[], selectedRows: HistoryDataType[]) => {
-    console.log(
-      `selectedRowKeys: ${selectedRowKeys}`,
-      "selectedRows: ",
-      selectedRows
-    );
-  },
-};
 const HistoryTable = () => {
   return (
     <div className="historyTableWrapper">
@@ -69,7 +59,7 @@ const HistoryTable = () => {
         <Table
           rowSelection={{
             type: "checkbox",
-            ...rowSelection,
+            // ...rowSelection,
           }}
           columns={columns}
           dataSource={historyData}

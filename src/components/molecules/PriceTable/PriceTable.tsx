@@ -79,16 +79,6 @@ const columns: ColumnsType<PriceDataType> = [
   },
 ];
 
-// rowSelection object indicates the need for row selection
-const rowSelection = {
-  onChange: (selectedRowKeys: React.Key[], selectedRows: PriceDataType[]) => {
-    console.log(
-      `selectedRowKeys: ${selectedRowKeys}`,
-      "selectedRows: ",
-      selectedRows
-    );
-  },
-};
 const PriceTable = () => {
   return (
     <div className="PriceTableWrapper">
@@ -104,7 +94,6 @@ const PriceTable = () => {
         <Table
           rowSelection={{
             type: "checkbox",
-            ...rowSelection,
           }}
           columns={columns}
           dataSource={priceData}

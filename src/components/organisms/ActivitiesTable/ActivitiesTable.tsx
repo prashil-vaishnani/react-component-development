@@ -3,9 +3,6 @@ import type { TabsProps } from "antd";
 import HistoryTable from "../../molecules/HistoryTable/HistoryTable";
 
 const ActivitiesTable = () => {
-  const onChange = (key: string) => {
-    console.log(key);
-  };
 
   const items: TabsProps["items"] = [
     {
@@ -34,7 +31,6 @@ const ActivitiesTable = () => {
       <Tabs
         defaultActiveKey="1"
         items={items}
-        onChange={onChange}
         tabBarExtraContent={
           <Select
             defaultValue="All_Time"

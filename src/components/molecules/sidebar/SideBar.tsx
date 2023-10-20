@@ -27,10 +27,6 @@ const { Sider } = Layout;
 const SideBar = () => {
   const [collapsed, setCollapsed] = useState(false);
   const location = useLocation();
-  console.log(collapsed, "ddddddd");
-  const onChange = (checked: boolean) => {
-    console.log(`switch to ${checked}`);
-  };
 
   return (
     <Sider
@@ -55,7 +51,6 @@ const SideBar = () => {
           <Menu
             theme="light"
             mode="inline"
-            onClick={({ key }) => console.log(key)}
             defaultSelectedKeys={["1"]}
             selectedKeys={[
               SidemenuNameIndexMap[getPathname(location.pathname)],
@@ -149,7 +144,6 @@ const SideBar = () => {
               defaultChecked
               checkedChildren={<BulbOutlined />}
               unCheckedChildren={<BulbOutlined />}
-              onChange={onChange}
             />
           </div>
         </div>

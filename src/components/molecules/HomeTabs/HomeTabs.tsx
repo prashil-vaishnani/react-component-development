@@ -4,10 +4,7 @@ import Coins from "../Coins/Coins";
 import CustomSelect from "../../atoms/Select/CustomSelect";
 
 const HomeTabs = () => {
-  const onChange = (key: string) => {
-    console.log(key);
-  };
-
+ 
   const items: TabsProps["items"] = [
     {
       key: "1",
@@ -35,7 +32,6 @@ const HomeTabs = () => {
       <Tabs
         defaultActiveKey="1"
         items={items}
-        onChange={onChange}
         tabBarExtraContent={<CustomSelect />}
       />
     </>

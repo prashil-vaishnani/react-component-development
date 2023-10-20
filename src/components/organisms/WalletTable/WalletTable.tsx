@@ -94,17 +94,6 @@ const columns: ColumnsType<WalletDataType> = [
   },
 ];
 
-// rowSelection object indicates the need for row selection
-const rowSelection = {
-  onChange: (selectedRowKeys: React.Key[], selectedRows: WalletDataType[]) => {
-    console.log(
-      `selectedRowKeys: ${selectedRowKeys}`,
-      "selectedRows: ",
-      selectedRows
-    );
-  },
-};
-
 const WalletTable = () => {
   return (
     <div className="WalletTableWrapper">
@@ -113,7 +102,6 @@ const WalletTable = () => {
         <Table
           rowSelection={{
             type: "checkbox",
-            ...rowSelection,
           }}
           columns={columns}
           dataSource={walletData}

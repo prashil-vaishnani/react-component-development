@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div onClick={() => console.log("cc")}>
+    <div>
       {" "}
       <svg
         width="22"
